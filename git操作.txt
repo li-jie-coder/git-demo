@@ -1,0 +1,10 @@
+1， 创建git 用户 email 
+	1.git config --global user.name lijie
+	2.git config --global user.email 1366573160@qq.com
+2,  提交步骤
+	1.git init 初始化git仓库
+	2.git status 查看文件状态
+	3.git add 文件列表 追踪文件
+	4.git commit -m 提交信息 向仓库中提交代码
+	5.git log 查看提交记录
+3， 恢复记录
