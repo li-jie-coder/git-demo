@@ -37,4 +37,7 @@
 	四. 跨团队写作
 		1.fork（叉子） 变为自己的仓库 就可以自己操作了 执行操作 二·	克隆仓库  即可在暂存区操作内容
 	五. ssh免登录
-		1.ssh-keygen （创建公钥和私钥  存放在用户目录Administrator中  .ssh）
+		1.生产秘钥  ssh-keygen （创建公钥和私钥  存放在用户目录Administrator中  .ssh）
+		2.右上角头像 -> settings -> SSH and GPG keys -> add SSH keys
+		3.将.ssh中的 ssh_pub 公钥 放到 SSH key 中 
+		4.在项目中 Clone or download  选择 useSSH  然后在本地仓库操作就能实现免登录
