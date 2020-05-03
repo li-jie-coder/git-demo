@@ -9,7 +9,7 @@
 	5.git log 查看提交记录
 3,  恢复记录
 	1.git checkout 文件 用暂存区的文件覆盖工作目录的文件
-	2.git rm --chached 文件 从暂存区中删除文件
+	2.git rm --cached 文件 从暂存区中删除文件
 	3.git rest --hard commitID 将git仓库中指定的更新记录恢复出来 这个文件之后提交的都会被删除
 4,  分支
     1.主分支（master）
@@ -41,3 +41,5 @@
 		2.右上角头像 -> settings -> SSH and GPG keys -> add SSH keys
 		3.将.ssh中的 ssh_pub 公钥 放到 SSH key 中 
 		4.在项目中 Clone or download  选择 useSSH  然后在本地仓库操作就能实现免登录
+	六. GIT忽略清单
+		1.gitignore  吧不需要管理的文件放进去
