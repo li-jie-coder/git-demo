@@ -1,4 +1,4 @@
-1， 创建git 用户 email 
+1,  创建git 用户 email 
 	1.git config --global user.name lijie
 	2.git config --global user.email 1366573160@qq.com
 2,  提交步骤
@@ -7,4 +7,22 @@
 	3.git add 文件列表 追踪文件
 	4.git commit -m 提交信息 向仓库中提交代码
 	5.git log 查看提交记录
-3， 恢复记录
+3,  恢复记录
+	1.git checkout 文件 用暂存区的文件覆盖工作目录的文件
+	2.git rm --chached 文件 从暂存区中删除文件
+	3.git rest --hard commitID 将git仓库中指定的更新记录恢复出来 这个文件之后提交的都会被删除
+4,  分支
+    1.主分支（master）
+	2.开发分支（develop）  开发完之后再合并到master 分支之间胡不影响
+	3.功能分支（feature）   作为开发功能的分支 开发完合并到develop 里
+5,  分支命令
+    1.git branch 查看分支
+	2.git branck 分支名称    创建分支
+	3.git checkout 分支名称  切换分支
+	4.git merge 来源分支     合并分支
+	5.git branch -d 分支名称 删除分支（分支被合并才能被删除） -D（强制删除）
+6,  暂时保存改动 （分支临时切换--当在develop分支操作时要切换到master分支 如果不暂时保存修改 则master分支会把develop中的自动提交到master分支上）
+	1.git stash       储存临时改动
+	2.git stash pop   恢复改动
+7,  github
+	1
