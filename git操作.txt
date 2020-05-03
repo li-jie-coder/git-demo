@@ -43,3 +43,5 @@
 		4.在项目中 Clone or download  选择 useSSH  然后在本地仓库操作就能实现免登录
 	六. GIT忽略清单
 		1.gitignore  吧不需要管理的文件放进去
+	七. readme.md文件
+		1.创建readme.md文件
