@@ -28,10 +28,13 @@
 	一· 创建仓库
 		1.git remote add origin https://github.com/li-jie-coder/git-demo.git 用origin替代设置提交地址
 		2.git push -u origin https://github.com/li-jie-coder/git-demo.git    -u 以后记住密码 提交时就不用再登录了再提交
-	二·	克隆仓库
+	二.	克隆仓库
 		1.git clone https://github.com/li-jie-coder/git-demo.git   获取远程仓库
 		2.git pull origin master   拉取到本地仓库
 	三. 解决冲突
 		1.冲突的产生（多人操作项目时，如果两个人同时修改了同一个位置就会产生冲突）
 		2.解决（需要将程序员A更新的版本pull到仓库 再 进行添加 此时代码中会有冲突的提示 把没有用的删除再提交就可以解决冲突了）
-	四·fork（叉子） 变为自己的仓库 就可以自己操作了 执行操作 二·	克隆仓库  即可在暂存区操作内容
+	四. 跨团队写作
+		1.fork（叉子） 变为自己的仓库 就可以自己操作了 执行操作 二·	克隆仓库  即可在暂存区操作内容
+	五. ssh免登录
+		1.ssh-keygen （创建公钥和私钥  存放在用户目录Administrator中  .ssh）
